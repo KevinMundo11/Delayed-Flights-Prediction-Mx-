@@ -1,10 +1,10 @@
-# flightsprediction
+# Delayed_Flights_Prediction_Mx
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-Delayed Flights Prediction (Mx)
+Delayed Flights Prediction Mx
 
 ## Project Organization
 
@@ -27,7 +27,7 @@ Delayed Flights Prediction (Mx)
 │                         `1.0-jqp-initial-data-exploration`.
 │
 ├── pyproject.toml     <- Project configuration file with package metadata for 
-│                         flightsprediction and configuration for tools like black
+│                         delayed_flights_prediction_mx and configuration for tools like black
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
 │
@@ -39,9 +39,9 @@ Delayed Flights Prediction (Mx)
 │
 ├── setup.cfg          <- Configuration file for flake8
 │
-└── flightsprediction   <- Source code for use in this project.
+└── delayed_flights_prediction_mx   <- Source code for use in this project.
     │
-    ├── __init__.py             <- Makes flightsprediction a Python module
+    ├── __init__.py             <- Makes delayed_flights_prediction_mx a Python module
     │
     ├── config.py               <- Store useful variables and configuration
     │

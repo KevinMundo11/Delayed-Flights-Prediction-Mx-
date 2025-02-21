@@ -2,7 +2,7 @@
 # GLOBALS                                                                       #
 #################################################################################
 
-PROJECT_NAME = Delayed Flights Prediction (Mx)
+PROJECT_NAME = Delayed_Flights_Prediction_Mx
 PYTHON_VERSION = 3.10
 PYTHON_INTERPRETER = python
 
@@ -28,14 +28,14 @@ clean:
 ## Lint using flake8 and black (use `make format` to do formatting)
 .PHONY: lint
 lint:
-	flake8 flightsprediction
-	isort --check --diff --profile black flightsprediction
-	black --check --config pyproject.toml flightsprediction
+	flake8 delayed_flights_prediction_mx
+	isort --check --diff --profile black delayed_flights_prediction_mx
+	black --check --config pyproject.toml delayed_flights_prediction_mx
 
 ## Format source code with black
 .PHONY: format
 format:
-	black --config pyproject.toml flightsprediction
+	black --config pyproject.toml delayed_flights_prediction_mx
 
 
 
@@ -50,7 +50,7 @@ format:
 ## Make Dataset
 .PHONY: data
 data: requirements
-	$(PYTHON_INTERPRETER) flightsprediction/dataset.py
+	$(PYTHON_INTERPRETER) delayed_flights_prediction_mx/dataset.py
 
 
 #################################################################################

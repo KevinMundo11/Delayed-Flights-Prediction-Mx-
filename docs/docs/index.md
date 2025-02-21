@@ -1,8 +1,8 @@
-# flightsprediction documentation!
+# Delayed_Flights_Prediction_Mx documentation!
 
 ## Description
 
-Delayed Flights Prediction (Mx)
+Delayed Flights Prediction Mx
 
 ## Commands
 

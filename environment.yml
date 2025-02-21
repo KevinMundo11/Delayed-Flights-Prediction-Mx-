@@ -1,4 +1,4 @@
-name: Delayed Flights Prediction (Mx)
+name: Delayed_Flights_Prediction_Mx
 channels:
   - conda-forge
 dependencies:
